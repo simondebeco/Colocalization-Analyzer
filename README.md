@@ -2,20 +2,14 @@
 READ ME
 
 1.	System requirement
--	The standalone executable only runs on macOS (tested on Sierra and above except Catalina)
--	The Matlab code runs on Linux, PC and mac computers and requires MATLAB R2018a or more recent (through the App Designer Matlab interface)
+The Matlab code runs on Linux, PC and mac computers and requires MATLAB R2018a or more recent (through the App Designer Matlab interface)
 
 
 2.	Installation Guide
--	Standalone executable: 
-•	
-•	Typical install time should be around …
-
--	Matlab App interface: 
-
-•	browse for folder until you locate the Colocalization_analyzer.mlapp file in your current folder. The segment_local_threshold file should also be located in the same folder
-•	right click on the Colocalization_analyzer.mlapp file and press Run           
-•	Typical launch time should be between a few seconds and one minute on a "normal" desktop computer
+-	launch MATLAB
+-	browse for folder until you locate the Colocalization_analyzer.mlapp file in your current folder. The segment_local_threshold file should also be located in the same folder
+-	right click on the Colocalization_analyzer.mlapp file and press Run           
+-	Typical launch time should be between a few seconds and one minute on a "normal" desktop computer
 
 
 3.	Demo
@@ -38,3 +32,4 @@ READ ME
 -	Choose the Regions of Interest in which intensity levels will be compared. If you click on Mask 1:Image 1 and Mask 2:Image 2, the signals in all pixels from the ROI obtained from segmentation of image 1 and Image 2 will be compared. You can also select more complex options: for instance, for Mask 1 you can select ROI from 2 images (by pressing Ctrl + click or cmd + click): the resulting ROI is the intersection of both ROI (pixels belonging to the ROI of Image 1 AND Image 2).
 -	Choose the signals to compare. In principle, if you have chosen Mask 1:Image 1 and Mask 2:Image 2, you should choose Signal 1:Image 1 and Signal 1:Image 2, but different options can also be informative.
 -	Press the Analyze button. A cytofluorogram, colocalization map as well as Pearson, Spearman and Manders coefficients will be displayed. Press the Save button to export them.
+
